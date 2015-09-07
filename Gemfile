@@ -31,7 +31,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-gem "paperclip"
+gem 'paperclip'
+gem 'sorcery'
+
 
 
 group :development, :test do
