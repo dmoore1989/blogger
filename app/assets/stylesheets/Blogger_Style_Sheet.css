@@ -1,5 +1,5 @@
 
-body, main, p, div, ul, li, h1, hr, h6, a {
+body, main, p, div, ul, li, h1, hr, h6, a, small {
   padding: 0;
   margin: 0;
   border: 0;
@@ -20,12 +20,22 @@ body {
   background-color: #A85516;
 }
 
+.flash{
+  display: block;
+  padding: 200;
+  background-color: grey;
+  font-size: 24px;
+  margin: 20px 0;
+  text-align: center;
+}
+
 main {
   background-color: #E49559;
-  min-height: 400px;
   width: 996px;
+  min-height: 400px;
   margin: auto;
   border: darkgrey double 2px;
+  overflow-y: visible;
 }
 
 .group:after{
@@ -74,4 +84,25 @@ main {
 
 .header a:hover{
   color: #E49559;
+}
+
+footer{
+  display: block;
+  font-size: 16px;
+  width: 996px;
+  background-color: white;
+  margin: auto;
+  border-bottom: 2px double darkgrey ;
+  border-left: 2px double darkgrey ;
+  border-right: 2px double darkgrey ;
+}
+
+footer .footer-copyright{
+  display: block;
+  float: left;
+}
+
+footer .footer-logged-in{
+  display: block;
+  float: right;
 }

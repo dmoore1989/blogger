@@ -14,14 +14,7 @@
       <main>
         <%= yield %>
       </main>
-      <hr>
-      <h6>
-        <% if logged_in? %>
-          <%= "Logged in as #{current_user.email}" %>
-          <%= link_to "(logout)", logout_path %>
-
-        <% end %>
-      </h6>
+      <%= render "partials/footer" %>
     </div>
   </div>
 </body>

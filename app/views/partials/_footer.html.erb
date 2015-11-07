@@ -1,0 +1,11 @@
+<footer class="group">
+  <small class="footer-copyright"> ©Douglas Moore 2015</small>
+  <h6 class="footer-logged-in">
+    <% if logged_in? %>
+      <%= "Logged in as #{current_user.email}" %>
+      (<strong><a href="<%= logout_path %>">logout</a></strong>)
+
+    <% end %>
+
+  </h6>
+</footer>
