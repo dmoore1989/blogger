@@ -11,7 +11,9 @@
   <div id="container" >
     <div id="content" >
       <%= render "partials/header" %>
-      <%= yield %>
+      <main>
+        <%= yield %>
+      </main>
       <hr>
       <h6>
         <% if logged_in? %>

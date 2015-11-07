@@ -1,5 +1,5 @@
 
-body, p, div, ul, li, h1, hr, h6, a {
+body, main, p, div, ul, li, h1, hr, h6, a {
   padding: 0;
   margin: 0;
   border: 0;
@@ -17,7 +17,15 @@ body, p, div, ul, li, h1, hr, h6, a {
 body {
   font-family: helvetica;
   font-weight: 300;
-  background-color: #A85516
+  background-color: #A85516;
+}
+
+main {
+  background-color: #E49559;
+  min-height: 400px;
+  width: 996px;
+  margin: auto;
+  border: darkgrey double 2px;
 }
 
 .group:after{
@@ -49,21 +57,20 @@ body {
 .header-nav{
   display: block;
   float:right;
-  padding: 8px
 }
 
 .header-nav-list li {
   display:block;
   float:left;
-  padding: 10px
+  padding: 15px
 }
 
 .header-nav-list li > a {
   font-size: 26px;
   font-weight: 400px;
-  padding-left: 20px
+  padding: 15px;
+  width: 150px;
 }
-
 
 .header a:hover{
   color: #E49559;
