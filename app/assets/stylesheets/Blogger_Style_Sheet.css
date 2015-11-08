@@ -1,5 +1,5 @@
 
-body, main, p, div, ul, li, h1, hr, h6, a, small {
+body, main, p, div, ul, li, h1, h2, hr, h6, a, small, strong {
   padding: 0;
   margin: 0;
   border: 0;
@@ -87,6 +87,7 @@ main {
 }
 
 footer{
+  color: grey;
   display: block;
   font-size: 16px;
   width: 996px;
@@ -105,4 +106,33 @@ footer .footer-copyright{
 footer .footer-logged-in{
   display: block;
   float: right;
+}
+
+main * {
+  padding: 5px 10px;
+  margin: 5px auto;
+  text-align: center;
+}
+
+#content h2 {
+  font-weight: 400;
+  font-size: 24px
+}
+
+#content img {
+  padding: 0;
+  display: block;
+  width: 200px;
+  height: auto;
+  border: 2px double darkgrey;
+  border-radius: 10px;
+}
+
+#content p {
+}
+
+ #content strong, a {
+  padding: 0;
+  margin: 0, 0;
+  display: inline
 }
