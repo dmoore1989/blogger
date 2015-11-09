@@ -4,9 +4,20 @@
   </h1>
   <nav class="header-nav group">
     <ul class="header-nav-list">
-      <li><a href="#">About</a></li>
+      <li><a href="#">About</a>
+        <ul class="header-nav-dropdown">
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Bio</a></li>
+        </ul>
+      </li>
       <li><a href="<%= articles_url %>">Blog</a></li>
-      <li><a href="#">Games</a></li>
+      <li><a href="#">Games</a>
+        <ul class="header-nav-dropdown">
+          <li><a href="#">Snakes</a></li>
+          <li><a href="#">TTT</a></li>
+          <li><a href="#">Towers</a></li>
+        </ul>
+      </li>
     </ul>
   </nav>
 </header>

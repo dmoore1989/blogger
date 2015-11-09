@@ -47,9 +47,12 @@ main {
 .header{
   display: block;
   background: #CD332F;
-  width: 1000px;
+  width: 996px;
   margin: auto;
   color: white;
+  border-top: 2px double darkgrey ;
+  border-left: 2px double darkgrey ;
+  border-right: 2px double darkgrey ;
 }
 
 .header-title{
@@ -72,7 +75,8 @@ main {
 .header-nav-list li {
   display:block;
   float:left;
-  padding: 15px
+  padding: 15px;
+  position:relative;
 }
 
 .header-nav-list li > a {
@@ -85,6 +89,26 @@ main {
 .header a:hover{
   color: #E49559;
 }
+
+.header-nav-dropdown {
+  display: none;
+  position: absolute;
+  background-color: white;
+  color: black;
+  top: 62px;
+  border-bottom: 2px double darkgrey ;
+  border-left: 2px double darkgrey ;
+  border-right: 2px double darkgrey ;
+}
+
+.header-nav-dropdown li> a {
+  font-size: 18px;
+}
+
+.header-nav-list li:hover .header-nav-dropdown  {
+  display: block
+}
+
 
 footer{
   color: grey;
