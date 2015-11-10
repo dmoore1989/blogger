@@ -1,5 +1,5 @@
 
-body, main, p, div, ul, li, h1, h2, hr, h6, a, small, strong {
+body, main, p, div, ul, li, h1, h2, hr, h6, a, small, strong, section {
   padding: 0;
   margin: 0;
   border: 0;
@@ -82,7 +82,7 @@ main {
 .header-nav-list li > a {
   font-size: 26px;
   font-weight: 400px;
-  padding: 15px;
+  padding: 16px;
   width: 150px;
 }
 
@@ -95,10 +95,17 @@ main {
   position: absolute;
   background-color: white;
   color: black;
-  top: 62px;
+  top: 61px;
   border-bottom: 2px double darkgrey ;
   border-left: 2px double darkgrey ;
   border-right: 2px double darkgrey ;
+  width: 130px
+}
+
+.header-nav-dropdown li {
+  box-sizing: border-box;
+  width: 100%;
+  border-top: 2px double darkgrey;
 }
 
 .header-nav-dropdown li> a {
@@ -135,12 +142,16 @@ footer .footer-logged-in{
 main * {
   padding: 5px 10px;
   margin: 5px auto;
-  text-align: center;
 }
 
-#content h2 {
-  font-weight: 400;
-  font-size: 24px
+main h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.home h2 {
+  font-weight: 700;
+  font-size: 24px;
 }
 
 #content img {
@@ -152,8 +163,6 @@ main * {
   border-radius: 10px;
 }
 
-#content p {
-}
 
  #content strong, a {
   padding: 0;
